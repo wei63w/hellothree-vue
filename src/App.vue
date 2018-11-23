@@ -11,6 +11,11 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 import AppNav from '@/components/AppNav.vue'
  
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import $ from 'jquery'
+
 @Component({
     components: {
       AppNav
@@ -26,6 +31,8 @@ export default class App extends Vue {}
 
 
 <style lang="scss">
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
