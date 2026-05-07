@@ -1,29 +1,22 @@
-# hellothree
+# hellothree-vue
 
-## Project setup
-```
+## 项目简介
+一个 Vue 前端示例项目。
+
+## 目录
+- `babel.config.js`
+- `package-lock.json`
+- `package.json`
+- `postcss.config.js`
+- `public`
+- `README.md`
+- `src`
+- `tsconfig.json`
+- `Vue.config.js`
+
+## 快速开始
+```bash
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
